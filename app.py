@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Изменённая версия приложения на Render!"
+    return "Изменённая версия пна Render!"
 
 if __name__ == "__main__":
     app.run()
